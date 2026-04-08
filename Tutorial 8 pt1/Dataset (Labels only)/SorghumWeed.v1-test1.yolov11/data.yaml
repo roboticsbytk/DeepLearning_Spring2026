@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Grass', 'Sorghum', 'Weed']
+
+roboflow:
+  workspace: tahniats-workspace
+  project: sorghumweed
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/tahniats-workspace/sorghumweed/dataset/1
